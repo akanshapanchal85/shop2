@@ -4,13 +4,16 @@
     border-color: #e7e7e7;
 
 }
-.navbar{
-    position: relative;
+.navbar {
+    position: fixed;
     min-height: 100px;
     margin-bottom: 20px;
     border: 1px solid transparent;
+    z-index: 100;
+    width: 100%;
 }
 .container {
+    margin-top: 12px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
@@ -398,6 +401,11 @@
 .sectionb img {
     width: 89%;
     border-radius: 150px 20px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: green;
+    border-color: green;
 }
 
 
@@ -1089,21 +1097,6 @@ features*/
 }
 
 
-/*...........products.......*/
-
-.product_view .modal-dialog {
-    max-width: 800px;
-    width: 100%;
-}
-
-.pre-cost {
-    text-decoration: line-through;
-    color: #a5a5a5;
-}
-
-.space-ten {
-    padding: 10px 0;
-}
 
 
 /*...............shop by category.............*/
