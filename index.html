@@ -27,6 +27,61 @@
       <script src="index.js" ></script>
    </head>
    <body>
+    <!--...navbar...-->
+    
+    
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-slide-dropdown">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Home Box</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-slide-dropdown">
+        <ul class="nav navbar-nav">
+            <li><a href="#"><i class="fa fa-smile-o" aria-hidden="true"></i>Offers</a></li>
+            <li><a href="#"><i class="fa fa-hand-o-right" aria-hidden="true"></i>RB Speciality</a></li>
+          <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <span class="caret"></span></a>       
+        <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>                
+            </li>
+        </ul>
+        <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+            <li><button class="basket">My Basket<i class="fa fa-shopping-basket" aria-hidden="true"></i></button></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-lock" aria-hidden="true"></i>Account<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Signup</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+        </ul>
+        
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
       <!--................slider.....................-->
       <script>!function(e){"undefined"==typeof module?this.charming=e:module.exports=e}(function(e,n){"use strict";n=n||{};var t=n.tagName||"span",o=null!=n.classPrefix?n.classPrefix:"char",r=1,a=function(e){for(var n=e.parentNode,a=e.nodeValue,c=a.length,l=-1;++l<c;){var d=document.createElement(t);o&&(d.className=o+r,r++),d.appendChild(document.createTextNode(a[l])),n.insertBefore(d,e)}n.removeChild(e)};return function c(e){for(var n=[].slice.call(e.childNodes),t=n.length,o=-1;++o<t;)c(n[o]);e.nodeType===Node.TEXT_NODE&&a(e)}(e),e});</script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
@@ -283,64 +338,7 @@
             </div>
          </div>
       </div>
-      <!--............shop by category....-->
-      <div class="Icons">
-         <div class="container">
-            <h3 style="text-align: center;" class="heading">Shop by <b style="color:#86AD17 ">Category</b> <a href="listing.html" style="float: right;font-size: 15px"><i class="fa fa-shopping-basket" aria-hidden="true"></i>SHOP ALL</a></h3>
-            <ul>
-               <li>
-                  <a class="btn-mod btn-11" href="#"><img src="images/pulses.png"/></a>
-                  <a href="#0">Pulses</a>
-               </li>
-               <li>
-                  <a class="btn-mod btn-1" href="#"><img src="images/flour.png"/></a>
-                  <a href="#0">Flour</a>
-               </li>
-               <li>
-                  <a class="btn-mod btn-10" href="#"><img src="images/spices.png"/></a>
-                  <a href="#0">Spices
-                  </a>
-               </li>
-               <li>
-                  <a class="btn-mod btn-1" href="#"><img src="images/ghee.png"/></a>
-                  <a href="#0">Ghee</a>
-               </li>
-               <li>
-                  <a class="btn-mod btn-11" href="#"><img src="images/breakfast.png"/></a>
-                  <a href="#0">Breakfast</a>
-               </li>
-               <li>
-                  <a class="btn-mod btn-1" href="#"><img src="images/cd.jpg"/></a>
-                  <a href="#0">Beverages
-                  </a>
-               </li>
-               <li>
-                  <a class="btn-mod btn-10" href="#"><img src="images/dried.png"/></a>
-                  <a href="#0">DryFruits</a>
-               </li>
-               <li>
-                  <a class="btn-mod btn-11" href="#"><img src="images/foods.png"/></a>
-                  <a href="#0">SuperFoods</a>
-               </li>
-               <li>
-                  <a class="btn-mod btn-10" href="#"><img src="images/oils.png"/></a>
-                  <a href="#0">Oils</a>
-               </li>
-               <li>
-                  <a class="btn-mod btn-1" href="#"><img src="images/cereals.png"/></a>
-                  <a href="#0">Cereals</a>
-               </li>
-               <li>
-                  <a class="btn-mod btn-10" href="#"><img src="https://img.icons8.com/carbon-copy/100/000000/hand-planting.png"/></a>
-                  <a href="#0">Furniture1</a>
-               </li>
-               <li>
-                  <a class="btn-mod btn-11" href="#"><img src="https://img.icons8.com/carbon-copy/100/000000/filled-circle.png"/></a>
-                  <a href="#0">Furniture</a>
-               </li>
-            </ul>
-         </div>
-      </div>
+      <hr>
       <!--.......................farmers...................-->
       <script>
          window.console = window.console || function(t) {};
@@ -524,427 +522,284 @@
          })();
          //# sourceURL=pen.js
       </script>
+
+
+<hr>
+
+
+
+
+      <!--............shop by category....-->
+      <div class="Icons">
+         <div class="container">
+            <h3 style="text-align: center;" class="heading">Shop by <b style="color:#86AD17 ">Category</b> <a href="listing.html" style="float: right;font-size: 15px"><i class="fa fa-shopping-basket" aria-hidden="true"></i>SHOP ALL</a></h3>
+            <ul>
+               <li>
+                  <a class="btn-mod btn-11" href="#"><img src="images/pulses.png"/></a>
+                  <a href="#0">Pulses</a>
+               </li>
+               <li>
+                  <a class="btn-mod btn-1" href="#"><img src="images/flour.png"/></a>
+                  <a href="#0">Flour</a>
+               </li>
+               <li>
+                  <a class="btn-mod btn-10" href="#"><img src="images/spices.png"/></a>
+                  <a href="#0">Spices
+                  </a>
+               </li>
+               <li>
+                  <a class="btn-mod btn-1" href="#"><img src="images/ghee.png"/></a>
+                  <a href="#0">Ghee</a>
+               </li>
+               <li>
+                  <a class="btn-mod btn-11" href="#"><img src="images/breakfast.png"/></a>
+                  <a href="#0">Breakfast</a>
+               </li>
+               <li>
+                  <a class="btn-mod btn-1" href="#"><img src="images/cd.jpg"/></a>
+                  <a href="#0">Beverages
+                  </a>
+               </li>
+               <li>
+                  <a class="btn-mod btn-10" href="#"><img src="images/dried.png"/></a>
+                  <a href="#0">DryFruits</a>
+               </li>
+               <li>
+                  <a class="btn-mod btn-11" href="#"><img src="images/foods.png"/></a>
+                  <a href="#0">SuperFoods</a>
+               </li>
+               <li>
+                  <a class="btn-mod btn-10" href="#"><img src="images/oils.png"/></a>
+                  <a href="#0">Oils</a>
+               </li>
+               <li>
+                  <a class="btn-mod btn-1" href="#"><img src="images/cereals.png"/></a>
+                  <a href="#0">Cereals</a>
+               </li>
+               <li>
+                  <a class="btn-mod btn-10" href="#"><img src="https://img.icons8.com/carbon-copy/100/000000/hand-planting.png"/></a>
+                  <a href="#0">Furniture1</a>
+               </li>
+               <li>
+                  <a class="btn-mod btn-11" href="#"><img src="https://img.icons8.com/carbon-copy/100/000000/filled-circle.png"/></a>
+                  <a href="#0">Furniture</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <hr>
       <!--.............................trending products.......-->
       <div class="container">
-         <h3 class="heading">TRENDING <b style="color: #86AD17">PRODUCTS</b>  <a href="listing.html" style="float: right;font-size: 15px"><i class="fa fa-shopping-basket" aria-hidden="true"></i>SHOP ALL</a></h3>
+         <h3 class="heading">Trending <b style="color: #86AD17">Products </b><a href="listing.html" style="float: right;font-size: 15px"><i class="fa fa-shopping-basket" aria-hidden="true"></i>SHOP ALL</a></h3>
          <div class="row">
             <div class="col-md-3 col-sm-6">
-               <div class="product-grid">
-                  <div class="product-image">
+               <div class="product-grid4">
+                  <div class="product-image4">
                      <a href="#">
                      <img class="pic-1" src="images/a5.jpg">
                      <img class="pic-2" src="images/a5.jpg">
                      </a>
                      <ul class="social">
-                        <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
-                        <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
-                        <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
                      </ul>
-                     <span class="product-new-label">Sale</span>
-                     <span class="product-discount-label">20%</span>
+                     <span class="product-new-label">New</span>
+                     <span class="product-discount-label">-10%</span>
                   </div>
-                  <ul class="rating">
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star disable"></li>
-                  </ul>
                   <div class="product-content">
-                     <h3 class="title"><a href="#">Women's Blouse</a></h3>
-                     <div class="price">$16.00
+                     <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                     <div class="price">
+                        $14.40
+                        <span>$16.00</span>
+                     </div>
+                     <a class="add-to-cart" href="">ADD TO CART</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+               <div class="product-grid4">
+                  <div class="product-image4">
+                     <a href="#">
+                     <img class="pic-1" src="images/a5.jpg">
+                     <img class="pic-2" src="images/a5.jpg">
+                     </a>
+                     <ul class="social">
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                     </ul>
+                     <span class="product-discount-label">-12%</span>
+                  </div>
+                  <div class="product-content">
+                     <h3 class="title"><a href="#">Men's Blue Shirt</a></h3>
+                     <div class="price">
+                        $17.60
                         <span>$20.00</span>
                      </div>
-                     <a class="add-to-cart" href="">+ Add To Cart</a>
+                     <a class="add-to-cart" href="">ADD TO CART</a>
                   </div>
                </div>
             </div>
             <div class="col-md-3 col-sm-6">
-               <div class="product-grid">
-                  <div class="product-image">
+               <div class="product-grid4">
+                  <div class="product-image4">
                      <a href="#">
                      <img class="pic-1" src="images/a5.jpg">
                      <img class="pic-2" src="images/a5.jpg">
                      </a>
                      <ul class="social">
-                        <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
-                        <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
-                        <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
                      </ul>
-                     <span class="product-new-label">Sale</span>
-                     <span class="product-discount-label">50%</span>
+                     <span class="product-new-label">New</span>
+                     <span class="product-discount-label">-10%</span>
                   </div>
-                  <ul class="rating">
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                  </ul>
                   <div class="product-content">
-                     <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
-                     <div class="price">$5.00
-                        <span>$10.00</span>
+                     <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                     <div class="price">
+                        $14.40
+                        <span>$16.00</span>
                      </div>
-                     <a class="add-to-cart" href="">+ Add To Cart</a>
+                     <a class="add-to-cart" href="">ADD TO CART</a>
                   </div>
                </div>
             </div>
             <div class="col-md-3 col-sm-6">
-               <div class="product-grid">
-                  <div class="product-image">
+               <div class="product-grid4">
+                  <div class="product-image4">
                      <a href="#">
                      <img class="pic-1" src="images/a5.jpg">
                      <img class="pic-2" src="images/a5.jpg">
                      </a>
                      <ul class="social">
-                        <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
-                        <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
-                        <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
                      </ul>
-                     <span class="product-new-label">Sale</span>
-                     <span class="product-discount-label">50%</span>
+                     <span class="product-new-label">New</span>
+                     <span class="product-discount-label">-10%</span>
                   </div>
-                  <ul class="rating">
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                  </ul>
                   <div class="product-content">
-                     <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
-                     <div class="price">$5.00
-                        <span>$10.00</span>
+                     <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                     <div class="price">
+                        $14.40
+                        <span>$16.00</span>
                      </div>
-                     <a class="add-to-cart" href="">+ Add To Cart</a>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-               <div class="product-grid">
-                  <div class="product-image">
-                     <a href="#">
-                     <img class="pic-1" src="images/a5.jpg">
-                     <img class="pic-2" src="images/a5.jpg">
-                     </a>
-                     <ul class="social">
-                        <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
-                        <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
-                        <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
-                     </ul>
-                     <span class="product-new-label">Sale</span>
-                     <span class="product-discount-label">50%</span>
-                  </div>
-                  <ul class="rating">
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                  </ul>
-                  <div class="product-content">
-                     <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
-                     <div class="price">$5.00
-                        <span>$10.00</span>
-                     </div>
-                     <a class="add-to-cart" href="">+ Add To Cart</a>
+                     <a class="add-to-cart" href="">ADD TO CART</a>
                   </div>
                </div>
             </div>
          </div>
       </div>
       <hr>
-      <!--..........................products section 1.....................-->
-      <div class="container" id="products">
+       <!--.............................trending products.......-->
+      <div class="container">
          <div class="row">
-            <div class="col-md-12">
-               <h2 class ="heading">CURATED<b> FOR YOU </b><a href="listing.html" style="float: right;font-size: 15px;"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Shop all</a></h2>
-               <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
-                  <!-- Carousel indicators -->
-                  <ol class="carousel-indicators">
-                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                     <li data-target="#myCarousel" data-slide-to="1"></li>
-                     <li data-target="#myCarousel" data-slide-to="2"></li>
-                  </ol>
-                  <!-- Wrapper for carousel items -->
-                  <div class="carousel-inner">
-                     <div class="item carousel-item active">
-                        <div class="row">
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="item carousel-item">
-                        <div class="row">
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$1099.00</strike> <span>$869.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$109.00</strike> <span>$99.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$599.00</strike> <span>$569.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="item carousel-item">
-                        <div class="row">
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$369.00</strike> <span>$349.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$450.00</strike> <span>$418.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$350.00</strike> <span>$330.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
+            <div class="col-md-3 col-sm-6">
+               <div class="product-grid4">
+                  <div class="product-image4">
+                     <a href="#">
+                     <img class="pic-1" src="images/a5.jpg">
+                     <img class="pic-2" src="images/a5.jpg">
+                     </a>
+                     <ul class="social">
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                     </ul>
+                     <span class="product-new-label">New</span>
+                     <span class="product-discount-label">-10%</span>
                   </div>
-                  <!-- Carousel controls -->
-                  <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
-                  <i class="fa fa-angle-left"></i>
-                  </a>
-                  <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
-                  <i class="fa fa-angle-right"></i>
-                  </a>
+                  <div class="product-content">
+                     <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                     <div class="price">
+                        $14.40
+                        <span>$16.00</span>
+                     </div>
+                     <a class="add-to-cart" href="">ADD TO CART</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+               <div class="product-grid4">
+                  <div class="product-image4">
+                     <a href="#">
+                     <img class="pic-1" src="images/a5.jpg">
+                     <img class="pic-2" src="images/a5.jpg">
+                     </a>
+                     <ul class="social">
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                     </ul>
+                     <span class="product-discount-label">-12%</span>
+                  </div>
+                  <div class="product-content">
+                     <h3 class="title"><a href="#">Men's Blue Shirt</a></h3>
+                     <div class="price">
+                        $17.60
+                        <span>$20.00</span>
+                     </div>
+                     <a class="add-to-cart" href="">ADD TO CART</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+               <div class="product-grid4">
+                  <div class="product-image4">
+                     <a href="#">
+                     <img class="pic-1" src="images/a5.jpg">
+                     <img class="pic-2" src="images/a5.jpg">
+                     </a>
+                     <ul class="social">
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                     </ul>
+                     <span class="product-new-label">New</span>
+                     <span class="product-discount-label">-10%</span>
+                  </div>
+                  <div class="product-content">
+                     <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                     <div class="price">
+                        $14.40
+                        <span>$16.00</span>
+                     </div>
+                     <a class="add-to-cart" href="">ADD TO CART</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+               <div class="product-grid4">
+                  <div class="product-image4">
+                     <a href="#">
+                     <img class="pic-1" src="images/a5.jpg">
+                     <img class="pic-2" src="images/a5.jpg">
+                     </a>
+                     <ul class="social">
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                     </ul>
+                     <span class="product-new-label">New</span>
+                     <span class="product-discount-label">-10%</span>
+                  </div>
+                  <div class="product-content">
+                     <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                     <div class="price">
+                        $14.40
+                        <span>$16.00</span>
+                     </div>
+                     <a class="add-to-cart" href="">ADD TO CART</a>
+                  </div>
                </div>
             </div>
          </div>
       </div>
+      <hr>
+      
       <!--...............products grid..................-->
       <div class="container">
          <h3 class="heading">NEW <b style="color: #86AD17">ARRIVALS </b><a href="listing.html" style="float: right;font-size: 15px"><i class="fa fa-shopping-basket" aria-hidden="true"></i>SHOP ALL</a></h3>
@@ -1156,585 +1011,114 @@
       <hr>
       <!--..................end products grid..............-->
       <!--..........................products section 2.....................-->
+       <!--.............................trending products.......-->
       <div class="container">
+         <h3 class="heading">Best <b style="color: #86AD17">Selling </b><a href="listing.html" style="float: right;font-size: 15px"><i class="fa fa-shopping-basket" aria-hidden="true"></i>SHOP ALL</a></h3>
          <div class="row">
-            <div class="col-md-12">
-               <h2 class ="heading">BEST<b> SELLING </b><a href="listing.html" style="float: right;font-size: 15px;"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Shop all</a></h2>
-               <div id="myCarousel2" class="carousel slide" data-ride="carousel" data-interval="0">
-                  <!-- Carousel indicators -->
-                  <ol class="carousel-indicators">
-                     <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
-                     <li data-target="#myCarousel2" data-slide-to="1"></li>
-                     <li data-target="#myCarousel2" data-slide-to="2"></li>
-                  </ol>
-                  <!-- Wrapper for carousel items -->
-                  <div class="carousel-inner">
-                     <div class="item carousel-item active">
-                        <div class="row">
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="item carousel-item">
-                        <div class="row">
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$1099.00</strike> <span>$869.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$109.00</strike> <span>$99.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$599.00</strike> <span>$569.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="item carousel-item">
-                        <div class="row">
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$369.00</strike> <span>$349.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$450.00</strike> <span>$418.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$350.00</strike> <span>$330.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
+            <div class="col-md-3 col-sm-6">
+               <div class="product-grid4">
+                  <div class="product-image4">
+                     <a href="#">
+                     <img class="pic-1" src="images/a5.jpg">
+                     <img class="pic-2" src="images/a5.jpg">
+                     </a>
+                     <ul class="social">
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                     </ul>
+                     <span class="product-new-label">New</span>
+                     <span class="product-discount-label">-10%</span>
                   </div>
-                  <!-- Carousel controls -->
-                  <a class="carousel-control left carousel-control-prev" href="#myCarousel2" data-slide="prev">
-                  <i class="fa fa-angle-left"></i>
-                  </a>
-                  <a class="carousel-control right carousel-control-next" href="#myCarousel2" data-slide="next">
-                  <i class="fa fa-angle-right"></i>
-                  </a>
+                  <div class="product-content">
+                     <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                     <div class="price">
+                        $14.40
+                        <span>$16.00</span>
+                     </div>
+                     <a class="add-to-cart" href="">ADD TO CART</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+               <div class="product-grid4">
+                  <div class="product-image4">
+                     <a href="#">
+                     <img class="pic-1" src="images/a5.jpg">
+                     <img class="pic-2" src="images/a5.jpg">
+                     </a>
+                     <ul class="social">
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                     </ul>
+                     <span class="product-discount-label">-12%</span>
+                  </div>
+                  <div class="product-content">
+                     <h3 class="title"><a href="#">Men's Blue Shirt</a></h3>
+                     <div class="price">
+                        $17.60
+                        <span>$20.00</span>
+                     </div>
+                     <a class="add-to-cart" href="">ADD TO CART</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+               <div class="product-grid4">
+                  <div class="product-image4">
+                     <a href="#">
+                     <img class="pic-1" src="images/a5.jpg">
+                     <img class="pic-2" src="images/a5.jpg">
+                     </a>
+                     <ul class="social">
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                     </ul>
+                     <span class="product-new-label">New</span>
+                     <span class="product-discount-label">-10%</span>
+                  </div>
+                  <div class="product-content">
+                     <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                     <div class="price">
+                        $14.40
+                        <span>$16.00</span>
+                     </div>
+                     <a class="add-to-cart" href="">ADD TO CART</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+               <div class="product-grid4">
+                  <div class="product-image4">
+                     <a href="#">
+                     <img class="pic-1" src="images/a5.jpg">
+                     <img class="pic-2" src="images/a5.jpg">
+                     </a>
+                     <ul class="social">
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                     </ul>
+                     <span class="product-new-label">New</span>
+                     <span class="product-discount-label">-10%</span>
+                  </div>
+                  <div class="product-content">
+                     <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                     <div class="price">
+                        $14.40
+                        <span>$16.00</span>
+                     </div>
+                     <a class="add-to-cart" href="">ADD TO CART</a>
+                  </div>
                </div>
             </div>
          </div>
       </div>
-      <!--..........................products section 2.....................-->
-      <div class="container"  style="font-family: Open Sans, sans-serif;">
-         <div class="row">
-            <div class="col-md-12">
-               <h2 class ="heading">SHOP BY<b> CATEGORY </b><a href="listing.html" style="float: right;font-size: 15px;"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Shop all</a></h2>
-               <div id="myCarousel8" class="carousel slide" data-ride="carousel" data-interval="0">
-                  <!-- Carousel indicators -->
-                  <ol class="carousel-indicators">
-                     <li data-target="#myCarousel8" data-slide-to="0" class="active"></li>
-                     <li data-target="#myCarousel8" data-slide-to="1"></li>
-                     <li data-target="#myCarousel8" data-slide-to="2"></li>
-                  </ol>
-                  <!-- Wrapper for carousel items -->
-                  <div class="carousel-inner">
-                     <div class="item carousel-item active">
-                        <div class="row">
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="item carousel-item">
-                        <div class="row">
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$1099.00</strike> <span>$869.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$109.00</strike> <span>$99.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$599.00</strike> <span>$569.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="item carousel-item">
-                        <div class="row">
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$369.00</strike> <span>$349.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$450.00</strike> <span>$418.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-sm-3">
-                              <div class="thumb-wrapper">
-                                 <div class="img-box">
-                                    <img src="images/a4.jpg" class="img-responsive img-fluid" alt="">
-                                 </div>
-                                 <div class="thumb-content">
-                                    <h4>orange</h4>
-                                    <p class="item-price"><strike>$350.00</strike> <span>$330.00</span></p>
-                                    <div class="star-rating">
-                                       <ul class="list-inline">
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                          <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                       </ul>
-                                    </div>
-                                    <a href="#" class="btn btn-primary">Add to Cart</a>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- Carousel controls -->
-                  <a class="carousel-control left carousel-control-prev" href="#myCarousel8" data-slide="prev">
-                  <i class="fa fa-angle-left"></i>
-                  </a>
-                  <a class="carousel-control right carousel-control-next" href="#myCarousel8" data-slide="next">
-                  <i class="fa fa-angle-right"></i>
-                  </a>
-               </div>
-            </div>
-         </div>
-      </div>
+      <hr>
+      <!--..........................products section 1.....................-->
+      
       <!--.................about us 
          <section class="about-section">
             <div class="container" >
@@ -1762,137 +1146,7 @@
             </div> 
          </section>
          ....................-->
-      <!--...............products grid..................-->
-      <div class="container">
-         <h3 class="heading">TRENDING <b style="color: #86AD17">PRODUCTS</b> <a href="listing.html" style="float: right;font-size: 15px"><i class="fa fa-shopping-basket" aria-hidden="true"></i>SHOP ALL</a></h3>
-         <div class="row">
-            <div class="col-md-3 col-sm-6">
-               <div class="product-grid">
-                  <div class="product-image">
-                     <a href="#">
-                     <img class="pic-1" src="images/a5.jpg">
-                     <img class="pic-2" src="images/a5.jpg">
-                     </a>
-                     <ul class="social">
-                        <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
-                        <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
-                        <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
-                     </ul>
-                     <span class="product-new-label">Sale</span>
-                     <span class="product-discount-label">20%</span>
-                  </div>
-                  <ul class="rating">
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star disable"></li>
-                  </ul>
-                  <div class="product-content">
-                     <h3 class="title"><a href="#">Women's Blouse</a></h3>
-                     <div class="price">$16.00
-                        <span>$20.00</span>
-                     </div>
-                     <a class="add-to-cart" href="">+ Add To Cart</a>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-               <div class="product-grid">
-                  <div class="product-image">
-                     <a href="#">
-                     <img class="pic-1" src="images/a5.jpg">
-                     <img class="pic-2" src="images/a5.jpg">
-                     </a>
-                     <ul class="social">
-                        <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
-                        <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
-                        <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
-                     </ul>
-                     <span class="product-new-label">Sale</span>
-                     <span class="product-discount-label">50%</span>
-                  </div>
-                  <ul class="rating">
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                  </ul>
-                  <div class="product-content">
-                     <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
-                     <div class="price">$5.00
-                        <span>$10.00</span>
-                     </div>
-                     <a class="add-to-cart" href="">+ Add To Cart</a>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-               <div class="product-grid">
-                  <div class="product-image">
-                     <a href="#">
-                     <img class="pic-1" src="images/a5.jpg">
-                     <img class="pic-2" src="images/a5.jpg">
-                     </a>
-                     <ul class="social">
-                        <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
-                        <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
-                        <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
-                     </ul>
-                     <span class="product-new-label">Sale</span>
-                     <span class="product-discount-label">50%</span>
-                  </div>
-                  <ul class="rating">
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                  </ul>
-                  <div class="product-content">
-                     <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
-                     <div class="price">$5.00
-                        <span>$10.00</span>
-                     </div>
-                     <a class="add-to-cart" href="">+ Add To Cart</a>
-                  </div>
-               </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-               <div class="product-grid">
-                  <div class="product-image">
-                     <a href="#">
-                     <img class="pic-1" src="images/a5.jpg">
-                     <img class="pic-2" src="images/a5.jpg">
-                     </a>
-                     <ul class="social">
-                        <li><a href="" data-tip="Quick View"><i class="fa fa-search"></i></a></li>
-                        <li><a href="" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
-                        <li><a href="" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
-                     </ul>
-                     <span class="product-new-label">Sale</span>
-                     <span class="product-discount-label">50%</span>
-                  </div>
-                  <ul class="rating">
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                     <li class="fa fa-star"></li>
-                  </ul>
-                  <div class="product-content">
-                     <h3 class="title"><a href="#">Men's Plain Tshirt</a></h3>
-                     <div class="price">$5.00
-                        <span>$10.00</span>
-                     </div>
-                     <a class="add-to-cart" href="">+ Add To Cart</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <hr>
+     
       <!--........sellers of the week.................-->
       <div class="container-fluid topDest">
          <div class="container">
@@ -1942,122 +1196,7 @@
             </div>
          </div>
       </div>
-      <!-- Team -->
-      <section id="team" class="pb-5" style="margin-top: 35px;margin-bottom: 60px;">
-         <div class="container">
-            <h6 class="section-title h1">OUR HAPPY <b style="color: #86AD17;">CUSTOMERS</b></h6>
-            <div class="row"  style="    background-color: #ccffcc;">
-               <!-- Team member -->
-               <div class="col-xs-12 col-sm-6 col-md-4">
-                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                     <div class="mainflip">
-                        <div class="frontside">
-                           <div class="card">
-                              <div class="card-body text-center">
-                                 <p><img class=" img-fluid" src="images/a7.jpg" alt="card image"   style="margin: 21px;" ></p>
-                                 <h4 class="card-title">Sunlimetech</h4>
-                                 <p class="card-text">This is basic card with image on top, title, description and button.</p>
-                                 <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="backside">
-                           <div class="card">
-                              <div class="card-body text-center mt-4">
-                                 <h4 class="card-title" style="padding: 36px;">Sunlimetech</h4>
-                                 <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
-                                 <div class="star-rating">
-                                    <ul class="list-inline">
-                                       <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                       <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                       <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                       <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                       <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                    </ul>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <!-- ./Team member -->
-               <!--................our amazing brands............-->
-               <!--...........our amazing brands end..............-->
-               <!-- Team member -->
-               <div class="col-xs-12 col-sm-6 col-md-4">
-                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                     <div class="mainflip">
-                        <div class="frontside">
-                           <div class="card">
-                              <div class="card-body text-center">
-                                 <p><img class=" img-fluid" src="images/a6.jpg" alt="card image" style="margin: 21px;"></p>
-                                 <h4 class="card-title">Sunlimetech</h4>
-                                 <p class="card-text">This is basic card with image on top, title, description and button.</p>
-                                 <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="backside">
-                           <div class="card">
-                              <div class="card-body text-center mt-4">
-                                 <h4 class="card-title" style="padding: 36px;">Sunlimetech</h4>
-                                 <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
-                                 <div class="star-rating">
-                                    <ul class="list-inline">
-                                       <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                       <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                       <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                       <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                       <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                    </ul>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <!-- ./Team member -->
-               <!-- Team member -->
-               <div class="col-xs-12 col-sm-6 col-md-4">
-                  <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                     <div class="mainflip">
-                        <div class="frontside">
-                           <div class="card">
-                              <div class="card-body text-center">
-                                 <p><img class=" img-fluid" src="images/a8.jpg" alt="card image" style="margin: 21px;"></p>
-                                 <h4 class="card-title"  >Sunlimetech</h4>
-                                 <p class="card-text">This is basic card with image on top, title, description and button.</p>
-                                 <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="backside">
-                           <div class="card">
-                              <div class="card-body text-center mt-4">
-                                 <h4 class="card-title" style="padding: 36px;">Sunlimetech</h4>
-                                 <p class="card-text">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
-                                 <div class="star-rating">
-                                    <ul class="list-inline">
-                                       <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                       <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                       <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                       <li class="list-inline-item"><i class="fa fa-star"></i></li>
-                                       <li class="list-inline-item"><i class="fa fa-star-o"></i></li>
-                                    </ul>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <!-- ./Team member -->
-            </div>
-         </div>
-      </section>
-      <!-- Team -->
+    
       <!--.............amazing brands..........-->
       <h4 class="amazing">AMAZING <b style="color:#86AD17; ">FEATURED BRANDS</b></h4>
       <div class="store-wrap d-flex flex-wrap align-content-start ">
@@ -2137,303 +1276,112 @@
       <a href="" style="float: right;font-size: 17px;"><i class="fa fa-eye" aria-hidden="true"></i>Show All</a>
       <hr>
       <!--.......................products which are trending..............-->
-      <h4 class="amazing">WE <b style="color:#86AD17; ">RECOMMENDS</b></h4>
-      <div class="container" style="margin-top: 40px;">
+       <div class="container">
+         <h3 class="heading">WE <b style="color: #86AD17">Recommends </b><a href="listing.html" style="float: right;font-size: 15px"><i class="fa fa-shopping-basket" aria-hidden="true"></i>SHOP ALL</a></h3>
          <div class="row">
-            <div class="col-md-4">
-               <div class="thumbnail">
-                  <img src="images/a8.jpg"alt="" class="img-responsive">
-                  <div class="caption">
-                     <h4 class="pull-right">$700.99</h4>
-                     <h4><a href="#">soaps</a></h4>
-                     <p>hgd jhd jhsd shj sd hdusyd hsah hud j aiuhd hhd </p>
+            <div class="col-md-3 col-sm-6">
+               <div class="product-grid4">
+                  <div class="product-image4">
+                     <a href="#">
+                     <img class="pic-1" src="images/a5.jpg">
+                     <img class="pic-2" src="images/a5.jpg">
+                     </a>
+                     <ul class="social">
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                     </ul>
+                     <span class="product-new-label">New</span>
+                     <span class="product-discount-label">-10%</span>
                   </div>
-                  <div class="ratings">
-                     <p>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        (15 reviews)
-                     </p>
-                  </div>
-                  <div class="space-ten"></div>
-                  <div class="btn-ground text-center">
-                     <button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add To Cart</button>
-                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
-                  </div>
-                  <div class="space-ten"></div>
-               </div>
-            </div>
-            <div class="col-md-4">
-               <div class="thumbnail">
-                  <img src="images/a8.jpg" alt="" class="img-responsive">
-                  <div class="caption">
-                     <h4 class="pull-right">$700.99</h4>
-                     <h4><a href="#">buttons</a></h4>
-                     <p>hs s jhs hkh wqjhk wjehjqw jhwn js sjhe hhe.</p>
-                  </div>
-                  <div class="ratings">
-                     <p>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        (15 reviews)
-                     </p>
-                  </div>
-                  <div class="space-ten"></div>
-                  <div class="btn-ground text-center">
-                     <button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add To Cart</button>
-                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
-                  </div>
-                  <div class="space-ten"></div>
-               </div>
-            </div>
-            <div class="col-md-4">
-               <div class="thumbnail">
-                  <img src="images/a8.jpg" alt="" class="img-responsive">
-                  <div class="caption">
-                     <h4 class="pull-right">$700.99</h4>
-                     <h4><a href=  "#">shampoo</a></h4>
-                     <p>jdhfj jhdsfj kjshf  kjhsd khjs .</p>
-                  </div>
-                  <div class="ratings">
-                     <p>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        (15 reviews)
-                     </p>
-                  </div>
-                  <div class="space-ten"></div>
-                  <div class="btn-ground text-center">
-                     <button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add To Cart</button>
-                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
-                  </div>
-                  <div class="space-ten"></div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="modal fade product_view" id="product_view">
-         <div class="modal-dialog">
-            <div class="modal-content">
-               <div class="modal-header">
-                  <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
-                  <h3 class="modal-title">Soaps godrej No.1</h3>
-               </div>
-               <div class="modal-body">
-                  <div class="row">
-                     <div class="col-md-6 product_img">
-                        <img src=images/a4.jpg" class="img-responsive">
+                  <div class="product-content">
+                     <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                     <div class="price">
+                        $14.40
+                        <span>$16.00</span>
                      </div>
-                     <div class="col-md-6 product_content">
-                        <h4>Product Id: <span>51526</span></h4>
-                        <div class="rating">
-                           <span class="glyphicon glyphicon-star"></span>
-                           <span class="glyphicon glyphicon-star"></span>
-                           <span class="glyphicon glyphicon-star"></span>
-                           <span class="glyphicon glyphicon-star"></span>
-                           <span class="glyphicon glyphicon-star"></span>
-                           (10 reviews)
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> 75.00 <small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> 60.00</small></h3>
-                        <div class="row">
-                           <div class="col-md-4 col-sm-6 col-xs-12">
-                              <select class="form-control" name="select">
-                                 <option value="" selected="">Color</option>
-                                 <option value="black">Black</option>
-                                 <option value="white">White</option>
-                                 <option value="gold">Gold</option>
-                                 <option value="rose gold">Rose Gold</option>
-                              </select>
-                           </div>
-                           <!-- end col -->
-                           <div class="col-md-4 col-sm-6 col-xs-12">
-                              <select class="form-control" name="select">
-                                 <option value="">Capacity</option>
-                                 <option value="">16GB</option>
-                                 <option value="">32GB</option>
-                                 <option value="">64GB</option>
-                                 <option value="">128GB</option>
-                              </select>
-                           </div>
-                           <!-- end col -->
-                           <div class="col-md-4 col-sm-12">
-                              <select class="form-control" name="select">
-                                 <option value="" selected="">QTY</option>
-                                 <option value="">1</option>
-                                 <option value="">2</option>
-                                 <option value="">3</option>
-                              </select>
-                           </div>
-                           <!-- end col -->
-                        </div>
-                        <div class="space-ten"></div>
-                        <div class="btn-ground">
-                           <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
-                           <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
-                        </div>
+                     <a class="add-to-cart" href="">ADD TO CART</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+               <div class="product-grid4">
+                  <div class="product-image4">
+                     <a href="#">
+                     <img class="pic-1" src="images/a5.jpg">
+                     <img class="pic-2" src="images/a5.jpg">
+                     </a>
+                     <ul class="social">
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                     </ul>
+                     <span class="product-discount-label">-12%</span>
+                  </div>
+                  <div class="product-content">
+                     <h3 class="title"><a href="#">Men's Blue Shirt</a></h3>
+                     <div class="price">
+                        $17.60
+                        <span>$20.00</span>
                      </div>
+                     <a class="add-to-cart" href="">ADD TO CART</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+               <div class="product-grid4">
+                  <div class="product-image4">
+                     <a href="#">
+                     <img class="pic-1" src="images/a5.jpg">
+                     <img class="pic-2" src="images/a5.jpg">
+                     </a>
+                     <ul class="social">
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                     </ul>
+                     <span class="product-new-label">New</span>
+                     <span class="product-discount-label">-10%</span>
+                  </div>
+                  <div class="product-content">
+                     <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                     <div class="price">
+                        $14.40
+                        <span>$16.00</span>
+                     </div>
+                     <a class="add-to-cart" href="">ADD TO CART</a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+               <div class="product-grid4">
+                  <div class="product-image4">
+                     <a href="#">
+                     <img class="pic-1" src="images/a5.jpg">
+                     <img class="pic-2" src="images/a5.jpg">
+                     </a>
+                     <ul class="social">
+                        <li><a href="#" data-tip="Quick View"><i class="fa fa-eye"></i></a></li>
+                        <li><a href="#" data-tip="Add to Wishlist"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li><a href="#" data-tip="Add to Cart"><i class="fa fa-shopping-cart"></i></a></li>
+                     </ul>
+                     <span class="product-new-label">New</span>
+                     <span class="product-discount-label">-10%</span>
+                  </div>
+                  <div class="product-content">
+                     <h3 class="title"><a href="#">Women's Black Top</a></h3>
+                     <div class="price">
+                        $14.40
+                        <span>$16.00</span>
+                     </div>
+                     <a class="add-to-cart" href="">ADD TO CART</a>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <div class="container">
-         <div class="row">
-            <div class="col-md-4">
-               <div class="thumbnail">
-                  <img src="images/a8.jpg"alt="" class="img-responsive">
-                  <div class="caption">
-                     <h4 class="pull-right">$700.99</h4>
-                     <h4><a href="#">soaps</a></h4>
-                     <p>hgd jhd jhsd shj sd hdusyd hsah hud j aiuhd hhd </p>
-                  </div>
-                  <div class="ratings">
-                     <p>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        (15 reviews)
-                     </p>
-                  </div>
-                  <div class="space-ten"></div>
-                  <div class="btn-ground text-center">
-                     <button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add To Cart</button>
-                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
-                  </div>
-                  <div class="space-ten"></div>
-               </div>
-            </div>
-            <div class="col-md-4">
-               <div class="thumbnail">
-                  <img src="images/a8.jpg" alt="" class="img-responsive">
-                  <div class="caption">
-                     <h4 class="pull-right">$700.99</h4>
-                     <h4><a href="#">buttons</a></h4>
-                     <p>hs s jhs hkh wqjhk wjehjqw jhwn js sjhe hhe.</p>
-                  </div>
-                  <div class="ratings">
-                     <p>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        (15 reviews)
-                     </p>
-                  </div>
-                  <div class="space-ten"></div>
-                  <div class="btn-ground text-center">
-                     <button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add To Cart</button>
-                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
-                  </div>
-                  <div class="space-ten"></div>
-               </div>
-            </div>
-            <div class="col-md-4">
-               <div class="thumbnail">
-                  <img src="images/a8.jpg" alt="" class="img-responsive">
-                  <div class="caption">
-                     <h4 class="pull-right">$700.99</h4>
-                     <h4><a href=  "#">shampoo</a></h4>
-                     <p>jdhfj jhdsfj kjshf  kjhsd khjs .</p>
-                  </div>
-                  <div class="ratings">
-                     <p>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        <span class="glyphicon glyphicon-star"></span>
-                        (15 reviews)
-                     </p>
-                  </div>
-                  <div class="space-ten"></div>
-                  <div class="btn-ground text-center">
-                     <button type="button" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add To Cart</button>
-                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
-                  </div>
-                  <div class="space-ten"></div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="modal fade product_view" id="product_view">
-         <div class="modal-dialog">
-            <div class="modal-content">
-               <div class="modal-header">
-                  <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
-                  <h3 class="modal-title">Shampoo lists</h3>
-               </div>
-               <div class="modal-body">
-                  <div class="row">
-                     <div class="col-md-6 product_img">
-                        <img src=images/a6.jpg" class="img-responsive">
-                     </div>
-                     <div class="col-md-6 product_content">
-                        <h4>Product Id: <span>51526</span></h4>
-                        <div class="rating">
-                           <span class="glyphicon glyphicon-star"></span>
-                           <span class="glyphicon glyphicon-star"></span>
-                           <span class="glyphicon glyphicon-star"></span>
-                           <span class="glyphicon glyphicon-star"></span>
-                           <span class="glyphicon glyphicon-star"></span>
-                           (10 reviews)
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> 75.00 <small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> 60.00</small></h3>
-                        <div class="row">
-                           <div class="col-md-4 col-sm-6 col-xs-12">
-                              <select class="form-control" name="select">
-                                 <option value="" selected="">Color</option>
-                                 <option value="black">Black</option>
-                                 <option value="white">White</option>
-                                 <option value="gold">Gold</option>
-                                 <option value="rose gold">Rose Gold</option>
-                              </select>
-                           </div>
-                           <!-- end col -->
-                           <div class="col-md-4 col-sm-6 col-xs-12">
-                              <select class="form-control" name="select">
-                                 <option value="">Capacity</option>
-                                 <option value="">16GB</option>
-                                 <option value="">32GB</option>
-                                 <option value="">64GB</option>
-                                 <option value="">128GB</option>
-                              </select>
-                           </div>
-                           <!-- end col -->
-                           <div class="col-md-4 col-sm-12">
-                              <select class="form-control" name="select">
-                                 <option value="" selected="">QTY</option>
-                                 <option value="">1</option>
-                                 <option value="">2</option>
-                                 <option value="">3</option>
-                              </select>
-                           </div>
-                           <!-- end col -->
-                        </div>
-                        <div class="space-ten"></div>
-                        <div class="btn-ground">
-                           <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span> Add To Cart</button>
-                           <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Add To Wishlist</button>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+      <hr>
+      
       <!--.......................features.......................-->
       <div class="container sectionb" style="margin-bottom: 40px">
          <div class="row">
@@ -2563,19 +1511,7 @@
                   </ul>
                   <!--footer_ul_amrc ends here-->
                </div>
-               <div class=" col-sm-4 col-md  col-6 col">
-                  <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
-                  <!--headin5_amrc-->
-                  <ul class="footer_ul_amrc">
-                     <li><a href="http://webenlance.com">Remove Background</a></li>
-                     <li><a href="http://webenlance.com">Shadows & Mirror Reflection</a></li>
-                     <li><a href="http://webenlance.com">Logo Design</a></li>
-                     <li><a href="http://webenlance.com">Vectorization</a></li>
-                     <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
-                     <li><a href="http://webenlance.com">Image Cropping</a></li>
-                  </ul>
-                  <!--footer_ul_amrc ends here-->
-               </div>
+               
                <div class=" col-sm-4 col-md  col-12 col">
                   <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
                   <!--headin5_amrc ends here-->
