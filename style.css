@@ -83,16 +83,18 @@
     font-family: Open Sans, sans-serif;
 }
 
+
 .heading::after {
     content: "";
-    width: 100px;
+    width: 155px;
     position: absolute;
     margin: 0 auto;
     height: 4px;
-    background: rgba(0, 0, 0, 0.2);
+    background: green;
     left: -87px;
     right: 0;
     bottom: -20px;
+    border-radius: 16px;
 }
 
 
@@ -384,7 +386,7 @@
 }
 
 .sectionb .row .col-md-6 {
-    background: #ccffcc;
+    background: #E0F5A3;
     margin-right: 0%;
     padding: 5%;
 }
@@ -420,7 +422,7 @@
 
 footer {
     width: 100%;
-    background-color: #ccffcc;
+    background-color: #E0F5A3;
     min-height: 250px;
     padding: 10px 0px 25px 0px;
 }
@@ -1484,7 +1486,7 @@ img {
     position: absolute;
     margin: 0 auto;
     height: 4px;
-    background: rgba(0, 0, 0, 0.2);
+    background: green;
     left: -87px;
     right: 0;
     bottom: -20px;
