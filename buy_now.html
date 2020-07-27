@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buy Item</title>
+    <link href="bootstrap.css" rel="stylesheet">
+    <link href="owl.carousel.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+    .parent-box{
+    height:250px;
+    width:277px;
+    display:flex;
+    margin-left:15px;
+    margin-top:10px;
+
+    }
+    .box{
+    height:220px;
+    margin-left:8px;
+    margin-top:10px;
+
+    }
+    .owl-carousel .owl-nav button.owl-prev {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    position:absolute;
+    top:55px;
+    font-size:30px;
+    margin-left:-2px;
+    }
+    .owl-carousel .owl-nav button.owl-next{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit;
+    position:absolute;
+    top:55px;
+    right:0;
+    margin-right:-1px;
+    font-size:30px;
+    }
+    .rate{
+    margin-left:8px;
+    font-size:13px;
+    margin-top:17px;
+    float:left;
+    }
+    .shop{
+    width:33px;
+    height:30px;
+    background-color:#0b8a55;
+    margin-left:93px;
+    margin-top:12px;
+    border-radius:5px;
+    }
+    .shop-box{
+    width:310px;
+    height:auto;
+    padding-bottom:8px;
+    border:1px solid rgb(180,180,180);
+    margin-left:770px;
+    border-radius:4px;
+    margin-top:20px;
+    }
+    .shop-box-detail{
+    margin-top:28px;
+    margin-bottom:10px;
+    height:auto;
+    }
+    .subtotal{
+   color:rgb(60,60,60);
+   font-size:13.2px;
+   margin-top:20px;
+    position:relative;
+
+    }
+    .ship{
+   color:rgb(60,60,60);
+   font-size:13.2px;
+   margin-top:5px;
+   float:left;
+   position:relative;
+    }
+    .side-rupee{
+    color:rgb(20,20,20);
+    font-size:13px;
+    margin-top:5px;
+    margin-left:210px;
+    position;absolute;
+    }
+</style>
+<body>
+<div style="height:73px;width:100%;background-color:white;">
+     <a href="index.html" style="text-decoration:none;"><span style="float:left;color:green;font-size:24px;vertical-align:top;margin-left:80px;padding-top:10px;">Home</span><span style="color:#fba817;float:left;vertical-align:baseline;font-size:24px;padding-top:10px;" class="com">.Box</span></a>
+
+</div>
+ <div style="height:32px;width:100%;background-color:#0b8a55;color:white;text-align:center;">
+     <span style="vertical-align:middle;">100% Secure & Fast Checkout</span>
+ </div>
+<div class="buy-section" style="height:800px;margin-top:80px">
+    <div class="form-box" style="width:560px;height:600px;border:1px solid rgb(180,180,180);margin-left:150px;border-radius:4px;position:relative;float:left;">
+        <div class="form-heading" style="height:40px;border-bottom:1px solid rgb(180,180,180);background-color:rgba(50,50,50,0.1);margin-top:-1px;">
+            <span style="padding-left:15px;margin-top:8px;position:absolute;font-size:14.5px;"><b>Contact Information</b></span>
+        </div>
+        <form method="POST">
+            <div style="color:rgb(60,60,60);font-size:13px;padding:14px 15px;">
+                <span> Already have an account? </span><span><a href="#" style="color:#fba817">Log in</a></span>
+            </div>
+            <div>
+                    <input type="email" class="form-control" name="email" placeholder="Email" style="width:95%;margin-left:14px;font-size:14px;">
+            </div>
+            <div style="margin-top:35px;">
+                <span style="padding-left:15px;">Shipping address</span>
+            </div>
+            <div>
+                    <input type="text" class="form-control" name="fname" placeholder="Full Name" style="width:95%;margin-left:14px;margin-top:14px;font-size:14px;">
+            </div>
+            <div>
+                    <input type="text" class="form-control" name="company" placeholder="Company (optional)" style="width:95%;margin-left:14px;margin-top:20px;font-size:14px;">
+            </div>
+            <div>
+                    <input type="text" class="form-control" name="address" placeholder="Full Address" style="width:95%;margin-left:14px;margin-top:14px;font-size:14px;">
+            </div>
+            <div>
+                    <input type="text" class="form-control" name="city" placeholder="City" style="width:95%;margin-left:14px;margin-top:14px;font-size:14px;">
+            </div>
+            <div>
+                    <input type="text" class="form-control" name="fname" placeholder="Pin code" style="width:95%;margin-left:14px;margin-top:14px;font-size:14px;">
+            </div>
+            <div>
+                <div style="float:left;width:50px;background-color:rgba(50,50,50,0.1);height:36px;margin-left:14px;position:relative;border-radius:3px;border:1px solid rgba(150,150,150,0.1);">
+                    <span style="padding-top:5px;padding-left:9px;position:absolute;">+91</span>
+
+                </div>
+
+                    <input type="text" class="form-control" name="phone" placeholder="Phone" style="width:86%;margin-left:60px;margin-top:14px;font-size:14px;">
+            </div>
+            <div style="margin-top:10px;margin-left:15px;">
+                <input type="checkbox" value="remember" style="margin-top:5px; "><b style="font-size:13px;padding-left:7px;">Save this information for the next time</b>
+            </div>
+            <div style="margin:30px 10px 0px 360px;background-color:#0b8a55;height:40px;width:190px;border-radius:3px;">
+               <input type="submit" value="Continue to shipping method" style="font-size:13px;background:transparent;outline:none;border:none;color:white;padding-top:8px;padding-left:11px;"></strong>
+            </div>
+
+
+        </form>
+        <div style="margin-top:40px;margin-left:50px;">
+            <img src="image/master-card.jpg" alt="master-card" height="30px" width="80px" style="border:1px solid rgba(200,200,200,0.7);border-radius:3px;">
+            <img src="image/net_banking (5).jpg" alt="master-card" height="30px" width="80px" style="border:1px solid rgba(200,200,200,0.7);border-radius:3px;margin-left:5px;">
+            <img src="image/secure_ssl.jpg" alt="master-card" height="30px" width="90px" style="border:1px solid rgba(200,200,200,0.7);border-radius:3px;margin-left:5px;">
+            <img src="image/rupay.jpg" alt="master-card" height="30px" width="80px" style="border:1px solid rgba(200,200,200,0.7);border-radius:3px;margin-left:5px;">
+            <img src="image/visa.jpg" alt="master-card" height="30px" width="80px" style="border:1px solid rgba(200,200,200,0.7);border-radius:3px;margin-left:5px;">
+
+        </div>
+        <div style="margin-top:10px;margin-left:160px;font-size:15px;color:rgb(60,60,140);">
+            <span>100% Secure & Fast Checkout</span>
+        </div>
+
+    </div>
+    <div style="height:280px;width:310px;border:1px solid rgb(180,180,180);margin-left:770px;border-radius:4px;">
+        <div style="background-color:rgba(50,50,50,0.1);height:40px;width:310px;margin-top:-1px;position:relative">
+            <span style="padding-left:15px;margin-top:8px;font-size:14.5px;position:absolute;"><strong>Customer Also Bought</strong></span>
+
+        </div>
+        <div class="parent-box owl-carousel">
+            <div class="box">
+                <div class="product" style="width:120px;">
+                    <a href="#"><img src="image/men_grooming.jpg" height="130px" width="80px" alt="product image"></a>
+                    <div class="text-center" style="font-size:13px;margin-top:6px;">
+                        <span>Men Grooming</span>
+                    </div>
+                     <div class="rate">
+                        <span>Rs.300</span>
+                    </div>
+                    <div class="shop">
+                        <span class="material-icons" style="color:white;font-size:19px;padding-left:7px;padding-top:6px;">shopping_cart</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box" style="">
+                <div class="product" style="width:120px;" >
+                    <a href="#"><img src="image/kitchen.jpg" height="130px" alt="product image"></a>
+                    <div class="text-center" style="font-size:13px;margin-top:6px;">
+                        <span >Kitchen</span>
+                    </div>
+                     <div class="rate">
+                        <span>Rs.280</span>
+                    </div>
+                    <div class="shop">
+                        <span class="material-icons" style="color:white;font-size:19px;padding-left:7px;padding-top:6px;">shopping_cart</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="product" style="width:120px;" >
+                    <a href="#"><img src="image/chocolate.jpg" height="130px" alt="product image"></a>
+                    <div class="text-center" style="font-size:13px;margin-top:6px;">
+                        <span>Chocolate</span>
+                    </div>
+                    <div class="rate">
+                        <span>Rs.200</span>
+                    </div>
+                    <div class="shop">
+                        <span class="material-icons" style="color:white;font-size:19px;padding-left:7px;padding-top:6px;">shopping_cart</span>
+                    </div>
+                </div>
+
+
+            </div>
+             <div class="box">
+                <div class="product" style="width:120px;" >
+                    <a href="#"><img src="image/coffee.jpg" height="130px" alt="product image"></a>
+                    <div class="text-center" style="font-size:13px;margin-top:6px;">
+                        <span>Coffee</span>
+                    </div>
+                    <div class="rate">
+                        <span>Rs.150</span>
+                    </div>
+                    <div class="shop">
+                        <span class="material-icons" style="color:white;font-size:19px;padding-left:7px;padding-top:6px;">shopping_cart</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="product" style="width:120px;" >
+                    <a href="#"><img src="image/fresh_fruit.jpg" height="130px" alt="product image"></a>
+                    <div class="text-center" style="font-size:13px;margin-top:6px;">
+                        <span>Fresh Fruit</span>
+                    </div>
+                    <div class="rate">
+                        <span>Rs.200</span>
+                    </div>
+                    <div class="shop">
+                        <span class="material-icons" style="color:white;font-size:19px;padding-left:7px;padding-top:6px;">shopping_cart</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="product" style="width:120px;" >
+                    <a href="#"><img src="image/makeup.jpg" height="130px" alt="product image"></a>
+                    <div class="text-center" style="font-size:13px;margin-top:6px;">
+                        <span >Makeup</span>
+                    </div>
+                    <div class="rate">
+                        <span>Rs.500</span>
+                    </div>
+                    <div class="shop">
+                        <span class="material-icons" style="color:white;font-size:19px;padding-left:7px;padding-top:6px;">shopping_cart</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="shop-box">
+        <div style="background-color:rgba(50,50,50,0.1);height:40px;width:310px;margin-top:-1px;position:relative">
+            <span style="padding-left:15px;margin-top:8px;font-size:14.5px;position:absolute;"><strong>Cart</strong></span>
+            <span class="view"><span style="padding-left:145px;margin-top:8px;font-size:14.5px;position:absolute;"><strong>View More Details</strong></span><span style="padding-left:278px;font-size:25px;position:absolute;margin-top:-2px;"><strong><i class="fa fa-angle-up" aria-hidden="true"></i></strong></span></span>
+        </div>
+        <div >
+            <div class="shop-box-detail">
+                <div style="height:80px;margin:8px 10px 8px 12px;">
+                    <div style="float:left;position:relative;">
+                        <img src="image/tea.jpg" height="65px" width="66px" style="border-radius:7px;z-index:1;">
+
+                    </div>
+                    <div  class="text-center" style="border-radius:50%;width:20px;height:20px;background-color:rgb(140,140,140);float:left;position:absolute;margin-left:55px;margin-top:-7.5px;z-index:100;">
+                        <span style="color:white;font-size:13px;vertical-align:top;font-weight:400;" >1</span>
+                    </div>
+                    <div style="margin-left:85px;position:absolute;font-size:14px;margin-top:-4px;">
+                        <span style="width:140px;font-weight:500;" >Lemongrass Green Tea</span>
+                        <div style="font-size:12.5px;color:rgb(100,100,100);">
+                            <span >30 g</span>
+                        </div>
+                        <div style="margin-left:141px;margin-right:10px;">
+                            <span style="font-weight:500;">Rs. 297.00</span>
+                        </div>
+                        <div style="font-size:12.5px;color:rgb(100,100,100);margin-top:-18px;">
+                            <span >Send it as gift (No)</span>
+                        </div>
+                    </div>
+                </div>
+                <div style="height:80px;margin:8px 10px 8px 12px;">
+                    <div style="float:left;position:relative;">
+                        <img src="image/tea.jpg" height="65px" width="66px" style="border-radius:7px;">
+                    </div>
+                    <div  class="text-center" style="border-radius:50%;width:20px;height:20px;background-color:rgb(140,140,140);float:left;position:absolute;margin-left:55px;margin-top:-7.5px;z-index:100;">
+                        <span style="color:white;font-size:13px;vertical-align:top;font-weight:400;" >1</span>
+                    </div>
+                    <div style="margin-left:85px;position:absolute;font-size:14px;margin-top:-4px;">
+                        <span style="width:140px;font-weight:500;" >Lemongrass Green Tea</span>
+
+                        <div style="margin-left:142px;margin-right:10px;font-weight:500;">
+                            <span>Rs. 297.00</span>
+                        </div>
+                        <div style="font-size:12.5px;color:rgb(100,100,100);margin-top:-18px;">
+                            <span >Send it as gift (No)</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div style="border-top:2px solid rgba(200,200,200,0.6);margin: 13px 14px; ">
+                <div class="subtotal">
+                    <span style="float:left;">Subtotal</span>
+                    <div class="side-rupee" style="font-weight:500;">
+                        <span>Rs. 594.00</span>
+                    </div>
+                </div>
+
+                <div class="ship">
+                    <span>Shipping</span>
+                </div>
+                <div style="color:rgba(30,30,30,0.7);font-size:13px;margin-top:5px;margin-left:150px;position;absolute;">
+                    <span>Calculated at next step</span>
+                </div>
+
+            </div>
+            <div style="border-top:1px solid rgba(200,200,200,0.6);margin: 18px 14px;">
+                <div class="ship" style="margin-top:15px;float:left;">
+                    <span style="font-size:15px;">Total</span>
+                </div>
+                <div style="font-size:24px;margin-left:200px;margin-top:5px;font-weight:500;">
+                    <span >Rs. 590</span>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script>
+    $(document).ready(function(){
+    $('.view').click(function(){
+    $('.shop-box-detail').toggle();
+    });
+    });
+</script>
+<script src="js/owl.carousel.js"></script>
+<script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+     responsive:{
+        100:{
+            items:1
+        },
+        300:{
+            items:2
+        },
+
+    }
+});
+</script>
+</body>
+</html>
