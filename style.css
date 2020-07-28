@@ -1,3 +1,39 @@
+/*            body {
+                -webkit-transition: background-color 1s;
+                transition: background-color 1s;
+            }
+            html, body { min-height: 100%; }
+            body.loading {
+                background: #333 url('http://code.jquery.com/mobile/1.3.1/images/ajax-loader.gif') no-repeat 50% 50%;
+                -webkit-transition: background-color 0;
+                transition: background-color 0;
+                opacity: 0;
+                -webkit-transition: opacity 0;
+                transition: opacity 0;
+            }
+         
+*/
+/*
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background:url("https://www.creditmutuel.fr/cmne/fr/banques/webservices/nswr/images/loading.gif") no-repeat center center rgba(0,0,0,0.25)
+    opacity: .8;
+}*/
+#load{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    background:url("http://code.jquery.com/mobile/1.3.1/images/ajax-loader.gif") no-repeat center center rgba(0,0,0,0.25)
+}
+/*......................................................*/
+
+
 
 .navbar-default {
     background-color: #fff;
