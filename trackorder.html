@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Cart Items</title>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+      <link rel="stylesheet" type="text/css" href="trackorder.css">
+    
+
+    <!--...navbar...-->
+<nav class="navbar navbar-default" role="navigation" >
+  <div class="containera">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-slide-dropdown">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#" style="color: green;">Home <b style="color: red;">Box</b></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-slide-dropdown">
+        <ul class="nav navbar-nav">
+            <li><a href="offers.html"><i class="fa fa-smile-o" aria-hidden="true"></i>Offers</a></li>
+            <li><a href="rakhicelebrations.html"><i class="fa fa-hand-o-right" aria-hidden="true"></i>RB Specials</a></li>
+          <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <span class="caret"></span></a>       
+        <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>                
+            </li>
+        </ul>
+        <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+            <li><button class="basket">My Basket<i class="fa fa-shopping-basket" aria-hidden="true"></i></button></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-lock" aria-hidden="true"></i>Account<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="login.html">Signup</a></li>
+               
+                <li class="divider"></li>
+                <li><a href="#">Vendor connect</a></li>
+              </ul>
+            </li>
+        </ul>
+        
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!--..body..-->
+
+<div class="row shop-tracking-status" style="padding-top: 100px">
+    
+    <div class="col-md-12">
+        <div class="well">
+    
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label for="inputOrderTrackingID" class="col-sm-2 control-label">Order id</label>
+                        <div class="col-sm-10">
+                        <input type="text" class="form-control" id="inputOrderTrackingID" value="" placeholder="# put your order id here">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button type="button" id="shopGetOrderStatusID" class="btn btn-success">Get status</button>
+                    </div>
+                </div>
+            </div>
+    
+            <h4>Your order status:</h4>
+
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <span class="prefix">Date created:</span>
+                    <span class="label label-success">12.12.2013</span>
+                </li>
+                <li class="list-group-item">
+                    <span class="prefix">Last update:</span>
+                    <span class="label label-success">12.15.2013</span>
+                </li>
+                <li class="list-group-item">
+                    <span class="prefix">Comment:</span>
+                    <span class="label label-success">customer's comment </span>
+                </li>
+
+            </ul>
+
+            <div class="order-status">
+
+                <div class="order-status-timeline">
+                    <!-- class names: c0 c1 c2 c3 and c4 -->
+                    <div class="order-status-timeline-completion c3"></div>
+                </div>
+
+                <div class="image-order-status image-order-status-new active img-circle">
+                    <span class="status">Accepted</span>
+                    <div class="icon"></div>
+                </div>
+                <div class="image-order-status image-order-status-active active img-circle">
+                    <span class="status">In progress</span>
+                    <div class="icon"></div>
+                </div>
+                <div class="image-order-status image-order-status-intransit active img-circle">
+                    <span class="status">Shipped</span>
+                    <div class="icon"></div>
+                </div>
+                <div class="image-order-status image-order-status-delivered active img-circle">
+                    <span class="status">Delivered</span>
+                    <div class="icon"></div>
+                </div>
+                <div class="image-order-status image-order-status-completed active img-circle">
+                    <span class="status">Completed</span>
+                    <div class="icon"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+      <!--footer starts from here-->
+      <footer class="footer" style="margin-top: 60px;">
+         <div class="container bottom_border">
+            <div class="row">
+               <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+                  <h5 class="headin5_amrc col_white_amrc pt2"><b>Find us</b></h5>
+                  <!--headin5_amrc-->
+                  <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                  <p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35 </p>
+                  <p><i class="fa fa-phone"></i>  +91-9999878398  </p>
+                  <p><i class="fa fa fa-envelope"></i> info@example.com  </p>
+               </div>
+               <div class=" col-sm-4 col-md  col-6 col">
+                  <h5 class="headin5_amrc col_white_amrc pt2"><b>Home Box</b></h5>
+                  <!--headin5_amrc-->
+                  <ul class="footer_ul_amrc">
+                     <li><a href="#">About Us</a></li>
+                     <li><a href="#">Green Home Box</a></li>
+                     <li><a href="#">Privacy Policy</a></li>
+                     <li><a href="#">Affiliate</a></li>
+                     <li><a href="#">Terms and Conditions</a></li>
+                     <li><a href="#">Careers At Home Box</a></li>
+                  </ul>
+                  <!--footer_ul_amrc ends here-->
+               </div>
+
+               
+               <div class=" col-sm-4 col-md  col-12 col">
+                   <h5 class="headin5_amrc col_white_amrc pt2"><b>Help</b></h5>
+                  <!--headin5_amrc-->
+                  <ul class="footer_ul_amrc">
+                     <li><a href="#">FAQs</a></li>
+                     <li><a href="#">Contact Us</a></li>
+                     <li><a href="#">bb Wallet FAQs</a></li>
+                     <li><a href="#">bb Wallet T&Cs</a></li>
+                     <li><a href="#">Vendor Connect</a></li>
+                    
+                  </ul>
+                  <!--footer_ul2_amrc ends here-->
+               </div>
+            </div>
+         </div>
+         <div class="container">
+            <ul class="foote_bottom_ul_amrc">
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">Services</a></li>
+               <li><a href="#">Pricing</a></li>
+               <li><a href="#">Blog</a></li>
+               <li><a href="#">Contact</a></li>
+            </ul>
+            <!--foote_bottom_ul_amrc ends here-->
+            <p class="text-center">Copyright @2020 | Designed by <a href="#"><b>Trivy Technologies</b></a></p>
+            <!--....................................SOCIAL MEDIA SECTION........................-->
+            <div class="container text-center">
+               <div class="social-icons">
+                  <a href="#"><img src="images/icons8-twitter-48.png"></a>
+                  <a href="#"><img src="images/icons8-linkedin-48.png"></a>
+                  <a href="#"><img src="images/icons8-instagram-48.png"></a>
+                  <a href="#"><img src="images/icons8-facebook-old-48.png"></a>
+                  <a href="#"><img src="images/icons8-whatsapp-48.png"></a>
+               </div>
+            </div>
+            <!--social_footer_ul ends here-->
+            <!-- Back to top -->
+            <div id="back-to-top" class="back-to-top">
+               <a href="#top"> <button class="btn btn-dark" title="Back to Top" style="display: block;">
+               <i class="fa fa-hand-pointer-o" aria-hidden="true" style="color: #fff;"></i>
+               </button></a>
+            </div>
+            <!-- End Back to top -->
+         </div>
+      </footer>
+   </body>
+</html>

@@ -749,6 +749,8 @@ footer p {
         height: 38px;
     width: 120px;
     margin-left:35px;
+    margin-right: 35px;
+    margin-bottom: 2px;
 }
 .fa-shopping-basket:before {
     content: "\f291";
