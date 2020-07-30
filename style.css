@@ -1191,6 +1191,7 @@ features*/
 }
 
 .btn-mod img {
+    max-width: 100%;
     transition: .3s linear;
     height: 70px;
     position: relative;
@@ -1501,8 +1502,10 @@ img {
 }
 
 .store-img img {
+   
     max-width: 140px;
     max-height: 60px;
+    max-width: 100%;
 }
 
 .amazing {
