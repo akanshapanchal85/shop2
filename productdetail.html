@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Your Product</title>
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--...css links......-->
+<link rel="stylesheet" type="text/css" href="productdetail.css">
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+    
+    
+</head>
+<body>
+    <!--...navbar...-->
+<div class="container" style=" max-width: -webkit-fill-available;padding-right: 0px;padding-left: 0px">
+  <nav class="navbar navbar-expand-lg" style="background-color: green;height: 70px;"><a class="navbar-brand" href="index.html" style="color: white;">Home <b style="color: red;">Box</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+                     <a href="offers.html" style="color: white;"><i class="fa fa-smile-o" aria-hidden="true" style="padding: 10px;color: yellow;"></i>Offers</a>
+                  </li>
+          
+                   <li class="nav-item ">
+                      <a href="rakhicelebrations.html" style="color: white;" ><i class="fa fa-hand-o-right" aria-hidden="true" style="padding: 10px;color:aqua; "></i>RB Specials</a>
+                  </li>
+        <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="listing.html" style="padding-top: 6px;color: white;" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Categories </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a> </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: white;">Search</button>
+      </form>
+
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="btn btn-md btn-danger ml-4 text-light"><i class="fa fa-shopping-cart" aria-hidden="true"></i>My Basket</a></li>
+         <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="listing.html" style="padding-top: 6px;color: white;" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-lock" aria-hidden="true" style="padding-left: 10px;color: grey;"></i> ACCOUNT </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="login.html">Login</a> <a class="dropdown-item" href="signup.html">Sign up</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Vendors connect</a> </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+
+
+
+<div class="super_container">
+  <header class="header" style="display: none;">
+      <div class="header_main">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-6 col-12 order-lg-2 order-3 text-lg-left text-right">
+                      <div class="header_search">
+                          <div class="header_search_content">
+                              <div class="header_search_form_container">
+                                  <form action="#" class="header_search_form clearfix">
+                                      <div class="custom_dropdown">
+                                          <div class="custom_dropdown_list"> <span class="custom_dropdown_placeholder clc">All Categories</span> <i class="fas fa-chevron-down"></i>
+                                              <ul class="custom_list clc">
+                                                  <li><a class="clc" href="#">All Categories</a></li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                                  </form>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </header>
+  <div class="single_product">
+      <div class="container-fluid" style=" background-color: #fff; padding: 11px;">
+          <div class="row">
+              <div class="col-lg-2 order-lg-1 order-2">
+                  <ul class="image_list">
+                      <li data-image="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565713229/single_4.jpg"><img src="https://image.shutterstock.com/image-photo/organic-green-bell-pepper-isolated-260nw-1456608254.jpg" alt=""></li>
+                      <li data-image="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565713228/single_2.jpg"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT4tsGKc2q_YhGWMBMTO2vCd1M0_EgyihCMtA&usqp=CAU" alt=""></li>
+                      <li data-image="https://res.cloudinary.com/dxfq3iotg/image/upload/v1565713228/single_3.jpg"><img src="data:image/jpeg;base64,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" alt=""></li>
+                  </ul>
+              </div>
+              <div class="col-lg-4 order-lg-2 order-1">
+                  <div class="image_selected"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRe5D3elJFbxyg0MWEkhcjz75N2pl3c3YBC7A&usqp=CAU" alt=""></div>
+              </div>
+              <div class="col-lg-6 order-3">
+                  <div class="product_description">
+                      <nav>
+                          <ol class="breadcrumb">
+                              <li class="breadcrumb-item"><a href="#">Home</a></li>
+                              <li class="breadcrumb-item"><a href="#">Products</a></li>
+                              <li class="breadcrumb-item active">Accessories</li>
+                          </ol>
+                      </nav>
+                      <div class="product_name">Capsicum</div>
+
+                      <p class="product-description">These are closely related to hot chillies but are larger and taste sweet. Red capsicums are sweeter than green capsicums, but they soften faster.Capsicums are an excellent source of vitamin A and C (red contain more than green capsicums).Capsicum is most commonly used for rheumatoid arthritis (RA), osteoarthritis, and other painful conditions.</p>
+                      <div class="product-rating"><span class="badge badge-success"><i class="fa fa-star"></i> 4.5 Star</span> <span class="rating-review">35 Ratings & 45 Reviews</span></div>
+                      <div> <span class="product_price">₹ 29,000</span> <strike class="product_discount"> <span style='color:black'>₹ 2,000<span> </strike> </div>
+                      <div> <span class="product_saved">You Saved:</span> <span style='color:black'>₹ 2,000<span> </div>
+                      <hr class="singleline">
+                      
+                      <div>
+                          <div class="row">
+                              <div class="col-md-5">
+                                  <div class="br-dashed">
+                                      <div class="row">
+                                          <div class="col-md-3 col-xs-3"> <img src="https://img.icons8.com/color/48/000000/price-tag.png"> </div>
+                                          <div class="col-md-9 col-xs-9">
+                                              <div class="pr-info"> <span class="break-all">Get 5% instant discount + 10X rewards @ RENTOPC</span> </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-md-7"> </div>
+                          </div>
+                          <!-- <div class="row" style="margin-top: 15px;">
+                              <div class="col-xs-6" style="margin-left: 15px;"> <span class="product_options">RAM Options</span><br> <button class="btn btn-primary btn-sm">4 GB</button> <button class="btn btn-primary btn-sm">8 GB</button> <button class="btn btn-primary btn-sm">16 GB</button> </div>
+                              <div class="col-xs-6" style="margin-left: 55px;"> <span class="product_options">Storage Options</span><br> <button class="btn btn-primary btn-sm">500 GB</button> <button class="btn btn-primary btn-sm">1 TB</button> </div>
+                          </div> -->
+                      </div>
+                      <hr class="singleline">
+                      <div> <span class="product_info">Warranty: 6 months warranty<span><br> <span class="product_info">7 Days easy return policy<span><br> <span class="product_info">In Stock: 25 units sold this week<span> </div>
+                      <div class="order_info d-flex flex-row">
+                          <form action="#">
+                      </div>
+                      <div class="row">
+                          <div class="col-xs-6" style="margin-left: 13px;">
+                              <div class="product_quantity"> <span>QTY: </span> <input id="quantity_input" type="text" pattern="[0-9]*" value="1">
+                                  <div class="quantity_buttons">
+                                      <div id="quantity_inc_button" class="quantity_inc quantity_control"><i class="fas fa-chevron-up"></i></div>
+                                      <div id="quantity_dec_button" class="quantity_dec quantity_control"><i class="fas fa-chevron-down"></i></div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-xs-6"> <button type="button" class="btn btn-lg btn-success shop-button">Add to Cart</button> <button type="button" class="btn btn-lg btn-outline-success shop-button">Buy Now</button>
+                              <div class="product_fav"><i class="fas fa-heart"></i></div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <!-- <div class="row row-underline">
+              <div class="col-md-6"> <span class=" deal-text">Combo Offers</span> </div>
+              <div class="col-md-6"> <a href="#" data-abc="true"> <span class="ml-auto view-all"></span> </a> </div>
+          </div>
+          <div class="row">
+              <div class="col-md-5">
+                  <div class="row padding-2">
+                      <div class="col-md-5 padding-0">
+                          <div class="bbb_combo">
+                              <div class="bbb_combo_image"><img class="bbb_combo_image" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560924153/alcatel-smartphones-einsteiger-mittelklasse-neu-3m.jpg" alt=""></div>
+                              <div class="d-flex flex-row justify-content-start"> <strike style="color:red;"> <span class="fs-10" style="color:black;">₹ 32,000<span> </span></span></strike> <span class="ml-auto"><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating"></i></span> </div>
+                              <div class="d-flex flex-row justify-content-start" style=" margin-bottom: 13px; "> <span style="margin-top: -4px;">₹30,000</span> <span class="ml-auto fs-10">23 Reviews</span> </div> <span>Acer laptop with 10GB RAM + 500 GB Hard Disk</span>
+                          </div>
+                      </div>
+                      <div class="col-md-2 text-center"> <span class="step">+</span> </div>
+                      <div class="col-md-5 padding-0">
+                          <div class="bbb_combo">
+                              <div class="bbb_combo_image"><img class="bbb_combo_image" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560924153/alcatel-smartphones-einsteiger-mittelklasse-neu-3m.jpg" alt=""></div>
+                              <div class="d-flex flex-row justify-content-start"> <strike style="color:red;"> <span class="fs-10" style="color:black;">₹ 32,000<span> </span></span></strike> <span class="ml-auto"><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating"></i></span> </div>
+                              <div class="d-flex flex-row justify-content-start" style=" margin-bottom: 13px; "> <span style="margin-top: -4px;">₹30,000</span> <span class="ml-auto fs-10">23 Reviews</span> </div> <span>Acer laptop with 10GB RAM + 500 GB Hard Disk</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-xs-12" style="margin-left: 36px;">
+                          <div class="boxo-pricing-items">
+                              <div class="combo-pricing-item"> <span class="items_text">1 Item</span> <span class="combo_item_price">₹13,200</span> </div>
+                              <div class="combo-plus"> <span class="plus-sign">+</span> </div>
+                              <div class="combo-pricing-item"> <span class="items_text">1 Add-on</span> <span class="combo_item_price">₹500</span> </div>
+                              <div class="combo-plus"> <span class="plus-sign">=</span> </div>
+                              <div class="combo-pricing-item"> <span class="items_text">Total</span> <span class="combo_item_price">₹13,700</span> </div>
+                              <div class="add-both-cart-button"> <button type="button" class="btn btn-primary shop-button">Add to Cart</button> </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-2 text-center"> <span class="vertical-line"></span> </div>
+              <div class="col-md-5" style=" margin-left: -27px;">
+                  <div class="row padding-2">
+                      <div class="col-md-5 padding-0">
+                          <div class="bbb_combo">
+                              <div class="bbb_combo_image"><img class="bbb_combo_image" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560924153/alcatel-smartphones-einsteiger-mittelklasse-neu-3m.jpg" alt=""></div>
+                              <div class="d-flex flex-row justify-content-start"> <strike style="color:red;"> <span class="fs-10" style="color:black;">₹ 32,000<span> </span></span></strike> <span class="ml-auto"><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating p-rating"></i><i class="fa fa-star p-rating"></i></span> </div>
+                              <div class="d-flex flex-row justify-content-start" style=" margin-bottom: 13px; "> <span style="margin-top: -4px;">₹30,000</span> <span class="ml-auto fs-10">23 Reviews</span> </div> <span>Acer laptop with 10GB RAM + 500 GB Hard Disk</span>
+                          </div>
+                      </div>
+                      <div class="col-md-2 text-center"> <span class="step">+</span> </div>
+                      <div class="col-md-5 padding-0">
+                          <div class="bbb_combo">
+                              <div class="bbb_combo_image"><img class="bbb_combo_image" src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1560924153/alcatel-smartphones-einsteiger-mittelklasse-neu-3m.jpg" alt=""></div>
+                              <div class="d-flex flex-row justify-content-start"> <strike style="color:red;"> <span class="fs-10" style="color:black;">₹ 32,000<span> </span></span></strike> <span class="ml-auto"><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating"></i><i class="fa fa-star p-rating"></i></span> </div>
+                              <div class="d-flex flex-row justify-content-start" style=" margin-bottom: 13px; "> <span style="margin-top: -4px;">₹30,000</span> <span class="ml-auto fs-10">23 Reviews</span> </div> <span>Acer laptop with 10GB RAM + 500 GB Hard Disk</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-xs-12" style="margin-left: 36px;">
+                          <div class="boxo-pricing-items">
+                              <div class="combo-pricing-item"> <span class="items_text">1 Item</span> <span class="combo_item_price">₹13,200</span> </div>
+                              <div class="combo-plus"> <span class="plus-sign">+</span> </div>
+                              <div class="combo-pricing-item"> <span class="items_text">1 Add-on</span> <span class="combo_item_price">₹500</span> </div>
+                              <div class="combo-plus"> <span class="plus-sign">=</span> </div>
+                              <div class="combo-pricing-item"> <span class="items_text">Total</span> <span class="combo_item_price">₹13,700</span> </div>
+                              <div class="add-both-cart-button"> <button type="button" class="btn btn-primary shop-button">Add to Cart</button> </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="row row-underline">
+              <div class="col-md-6"> <span class=" deal-text">Specifications</span> </div>
+              <div class="col-md-6"> <a href="#" data-abc="true"> <span class="ml-auto view-all"></span> </a> </div>
+          </div>
+          <div class="row">
+              <div class="col-md-12">
+                  <table class="col-md-12">
+                      <tbody>
+                          <tr class="row mt-10">
+                              <td class="col-md-4"><span class="p_specification">Sales Package :</span> </td>
+                              <td class="col-md-8">
+                                  <ul>
+                                      <li>2 in 1 Laptop, Power Adaptor, Active Stylus Pen, User Guide, Warranty Documents</li>
+                                  </ul>
+                              </td>
+                          </tr>
+                          <tr class="row mt-10">
+                              <td class="col-md-4"><span class="p_specification">Model Number :</span> </td>
+                              <td class="col-md-8">
+                                  <ul>
+                                      <li> 14-dh0107TU </li>
+                                  </ul>
+                              </td>
+                          </tr>
+                          <tr class="row mt-10">
+                              <td class="col-md-4"><span class="p_specification">Part Number :</span> </td>
+                              <td class="col-md-8">
+                                  <ul>
+                                      <li>7AL87PA</li>
+                                  </ul>
+                              </td>
+                          </tr>
+                          <tr class="row mt-10">
+                              <td class="col-md-4"><span class="p_specification">Color :</span> </td>
+                              <td class="col-md-8">
+                                  <ul>
+                                      <li>Black</li>
+                                  </ul>
+                              </td>
+                          </tr>
+                          <tr class="row mt-10">
+                              <td class="col-md-4"><span class="p_specification">Suitable for :</span> </td>
+                              <td class="col-md-8">
+                                  <ul>
+                                      <li>Processing & Multitasking</li>
+                                  </ul>
+                              </td>
+                          </tr>
+                          <tr class="row mt-10">
+                              <td class="col-md-4"><span class="p_specification">Processor Brand :</span> </td>
+                              <td class="col-md-8">
+                                  <ul>
+                                      <li>Intel</li>
+                                  </ul>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+      </div>
+  </div>
+</div> -->
+<!--...........body............-->
+<!-- <div class="container mt-5">
+  <div class="row">
+    <div class="col-md-12"> HOME &GT CATEGORIES &GT FRESH FROM FARMS </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active"> <img class="d-block w-100" src="images/capsicum.png" alt="First slide" style="height: 500px;"> </div>
+          <div class="carousel-item"> <img class="d-block w-100" src="images/cap2.png" alt="Second slide" style="height: 500px;"> </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+         <div class="product-count">
+                        <a href="#" class="round-black-btn">Add to Cart</a>
+                        <a href="#" class="round-black-btn" style="float: right;">Buy Now</a>
+                     </div>
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        <h2>Capsicum</h2>
+      </div>
+      <div class="row">
+        <h1><i class="fa fa-inr" aria-hidden="true"></i> 599</h1>
+        &nbsp; &nbsp;
+        <h3><del>799</del></h3>
+        &nbsp; &nbsp;
+        <h2 class="text-success">30% off</h2>
+      </div>
+      <div class="row">
+        <h3 class="text-warning"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></h3>
+        &nbsp; &nbsp;
+        <h5>1200 star rating  and 250 reviews</h5>
+      </div>
+      <div class="row">
+        <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> <strong>Bank Offer</strong> 20% Instant Discount on SBI Credit Cards</p>
+        <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> <strong>Bank Offer</strong> 5% Unlimited Cashback on Flipkart Axis Bank Credit Card </p>
+        <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> <strong>Bank Offer</strong> Extra 5% off* with Axis Bank Buzz Credit Card</p>
+        <p><i class="text-success fa fa-check-square-o" aria-hidden="true"></i> <strong>Bank Offer</strong>20% Instant Discount on pay with <i class="fa fa-google-wallet" aria-hidden="true"></i> google wallet </p>
+      </div>
+      <div class="row mt-4">
+        <h3 class="text-info"><i class="fa fa-map-marker" aria-hidden="true"></i></h3>
+        <p style="font-size: 20px"> &nbsp; Delivery by23 Jul, Tuesday | &nbsp; <span class="text-success">FREE</span> </p>
+      </div>
+      <div class="row mt-4">
+        <h6>Weigh: &nbsp; &nbsp;</h6>
+        <div class="dropdown show"> <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: green;"> Select </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> <a class="dropdown-item" href="#">Killo gram</a> <a class="dropdown-item" href="#">500 grams </a> <a class="dropdown-item" href="#">250 grams</a> </div>
+        </div>
+        <h6 style="padding-left: 50px">Quantity: &nbsp; &nbsp;</h6>
+        <div class="dropdown show"> <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: green;"> Select </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink"> <a class="dropdown-item" href="#">1</a> <a class="dropdown-item" href="#">2 </a> <a class="dropdown-item" href="#">3</a> </div>
+        </div>
+      </div>
+      <div>
+        
+      </div>
+      <div class="product_rassurance">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><i class="fa fa-truck fa-2x"></i><br/>Fast delivery</li>
+                            <li class="list-inline-item"><i class="fa fa-credit-card fa-2x"></i><br/>Secure payment</li>
+                            <li class="list-inline-item"><i class="fa fa-phone fa-2x"></i><br/>+33 1 22 54 65 60</li>
+                        </ul>
+                    </div>
+     
+      <div class="row mt-4">
+        <h4>Seller: &nbsp; &nbsp;</h4>
+        <p style="font-size: 18px">G.M organic farms </p>
+      </div>
+      
+      
+    </div>
+  </div>
+</div> -->
+
+
+<div class="container">
+   <div class="row mt-5">
+     <h2>Similar Products</h2>
+   </div>
+   
+   <div class="row mt-5">
+    <div class="col-md-3">
+      <div class="card">
+        <img class="card-img-top img-fluid" src="images/brinjal.jpg" style="height: 160px">
+        <div class="card-title">
+          <h4>Brinjal</h4>
+        </div> 
+        <div class="card-text">
+         
+          <a class="btn btn-success text-light"> Buy Now</a> &nbsp; <a class="btn btn-danger text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i>  Add To Cart</a> <br/><br/>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="col-md-3">
+      <div class="card">
+        <img class="card-img-top img-fluid" src="images/beetroot.jpg" style="height: 160px">
+        <div class="card-title">
+          <h4>Beetroot</h4>
+        </div> 
+        <div class="card-text">
+         
+          <a class="btn btn-success text-light"> Buy Now</a> &nbsp; <a class="btn btn-danger text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i>  Add To Cart</a> <br/><br/>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="col-md-3">
+      <div class="card">
+        <img class="card-img-top img-fluid" src="images/beans.jpg" style="height: 160px">
+        <div class="card-title">
+          <h4>Beans</h4>
+        </div> 
+        <div class="card-text">
+          
+          <a class="btn btn-success text-light"> Buy Now</a> &nbsp; <a class="btn btn-danger text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i>  Add To Cart</a> <br/><br/>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-md-3">
+      <div class="card">
+        <img class="card-img-top img-fluid" src="images/ginger.jpg" style="height: 160px">
+        <div class="card-title">
+          <h4>Ginger</h4>
+        </div> 
+        <div class="card-text">
+         
+          <a class="btn btn-success text-light"> Buy Now</a> &nbsp; <a class="btn btn-danger text-light"><i class="fa fa-cart-plus" aria-hidden="true"></i>  Add To Cart</a> <br/><br/>
+        </div>
+      </div>
+    </div>
+   </div>
+   
+   
+</div>
+
+
+<div class="container mt-5 mb-5">
+  <div class="row">
+    <h2>Ratings & Reviews</h2>
+  </div>
+  
+  <div class="row mt-5 mb-5">
+    <div class="media">
+  <img class="mr-3" src="images/person1.jpg" alt="Generic placeholder image" style="height: 60px;">
+  <div class="media-body">
+    <h5 class="mt-0">Very nice product. <span class="text-warning"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </span></h5>
+    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+  </div>
+</div>
+  </div>
+  
+  <div class="row mb-5">
+    <div class="media"> <img class="mr-3" src="images/person2.jpg" alt="Generic placeholder image" style="height: 60px;">
+      <div class="media-body">
+        <h5 class="mt-0">Best product best material.<span class="text-warning"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span></h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. </div>
+    </div>
+  </div>
+  
+  
+  <div class="row mb-5">
+    <div class="media"> <img class="mr-3" src="images/person3.jpg" alt="Generic placeholder image" style="height: 60px;">
+      <div class="media-body">
+        <h5 class="mt-0"> Bad product.dont take this<span class="text-warning"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </span></h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. </div>
+    </div>
+  </div>
+  
+  
+  <div class="row mb-5">
+    <div class="media"> <img class="mr-3" src="images/person4.jpg" alt="Generic placeholder image" style="height: 60px;">
+      <div class="media-body">
+        <h5 class="mt-0">really nice product,value for money.<span class="text-warning"><i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-half-o" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </span></h5>
+        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. </div>
+    </div>
+  </div>
+  
+  <div class="row mb-5">
+    <h2> Post Your Own Reviews</h2>
+  </div>
+  
+  
+  <form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Your Review Please</label>
+    <textarea type="text" class="form-control" id="exampleInputtextarea" placeholder="write your own reviews" rows="3"></textarea>
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary" style="background-color: green;">Submit</button>
+</form>
+  
+</div>
+
+
+      <!--footer starts from here-->
+      <footer class="footer" style="margin-top: 60px;">
+         <div class="container bottom_border">
+            <div class="row">
+               <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+                  <h5 class="headin5_amrc col_white_amrc pt2"><b>Find us</b></h5>
+                  <!--headin5_amrc-->
+                  <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                  <p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35 </p>
+                  <p><i class="fa fa-phone"></i>  +91-9999878398  </p>
+                  <p><i class="fa fa fa-envelope"></i> info@example.com  </p>
+               </div>
+               <div class=" col-sm-4 col-md  col-6 col">
+                  <h5 class="headin5_amrc col_white_amrc pt2"><b>Home Box</b></h5>
+                  <!--headin5_amrc-->
+                  <ul class="footer_ul_amrc">
+                     <li><a href="#">About Us</a></li>
+                     <li><a href="#">Green Home Box</a></li>
+                     <li><a href="#">Privacy Policy</a></li>
+                     <li><a href="#">Affiliate</a></li>
+                     <li><a href="#">Terms and Conditions</a></li>
+                     <li><a href="#">Careers At Home Box</a></li>
+                  </ul>
+                  <!--footer_ul_amrc ends here-->
+               </div>
+
+               
+               <div class=" col-sm-4 col-md  col-12 col">
+                   <h5 class="headin5_amrc col_white_amrc pt2"><b>Help</b></h5>
+                  <!--headin5_amrc-->
+                  <ul class="footer_ul_amrc">
+                     <li><a href="#">FAQs</a></li>
+                     <li><a href="#">Contact Us</a></li>
+                     <li><a href="#">bb Wallet FAQs</a></li>
+                     <li><a href="#">bb Wallet T&Cs</a></li>
+                     <li><a href="#">Vendor Connect</a></li>
+                    
+                  </ul>
+                  <!--footer_ul2_amrc ends here-->
+               </div>
+            </div>
+         </div>
+         <div class="container">
+             <ul class="foote_bottom_ul_amrc">
+               <li><a href="">Home</a></li>
+               <li><a href="">About</a></li>
+               <li><a href="">Services</a></li>
+               <li><a href="">Pricing</a></li>
+               <li><a href="">Blog</a></li>
+               <li><a href="">Contact</a></li>
+            </ul>
+            <!--foote_bottom_ul_amrc ends here-->
+            <p class="text-center">Copyright @2020 | Designed by <a href="#"><b>Trivy Technologies</b></a></p>
+            <!--....................................SOCIAL MEDIA SECTION........................-->
+            <div class="container text-center">
+               <div class="social-icons">
+                  <a href="#"><img src="images/icons8-twitter-48.png"></a>
+                  <a href="#"><img src="images/icons8-linkedin-48.png"></a>
+                  <a href="#"><img src="images/icons8-instagram-48.png"></a>
+                  <a href="#"><img src="images/icons8-facebook-old-48.png"></a>
+                  <a href="#"><img src="images/icons8-whatsapp-48.png"></a>
+               </div>
+            </div>
+            <!--social_footer_ul ends here-->
+            <!-- Back to top -->
+            <div id="back-to-top" class="back-to-top">
+               <a href="#top"> <button class="btn btn-dark" title="Back to Top" style="display: block;">
+               <i class="fa fa-hand-pointer-o" aria-hidden="true" style="color: #fff;"></i>
+               </button></a>
+            </div>
+            <!-- End Back to top -->
+         </div>
+      </footer>
+   
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   </body>
+</html>
